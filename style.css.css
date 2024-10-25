@@ -1,0 +1,55 @@
+body{
+   
+    background-image: url(koofi.avif);
+   background-repeat: no-repeat;
+   background-size: cover; 
+}
+h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 1.5rem;
+}
+p {
+    text-align: center;
+    color: #fff;
+}
+.home{
+    background-image: url(./3.jpg);
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 100px;
+    justify-content: center;
+    color: white;
+    margin-top: -120px;
+    color: #fff;
+    background-color: black;
+    height: 80px;
+    padding-top: 45px;
+    padding-left: 400px;
+    font-size: xx-large;
+    font-family:Arial, Helvetica, sans-serif ;
+
+    
+}
+nav a{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-style: italic;
+    color: #fff;
+
+}
+img{
+    width: 8%;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    background-color: #555;
+    border-radius: 100px;
+    color: blue;
+
+}
